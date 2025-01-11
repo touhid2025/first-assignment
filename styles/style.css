@@ -11,7 +11,7 @@
 /* all */
 body{
     margin: 50px;
-    background-color: aliceblue;
+    background-color: rgb(200, 229, 255);
 }
 .text-color{
     color: rgb(105, 105, 105);}
@@ -73,16 +73,19 @@ body{
     background-color: rgb(159, 160, 161);
     border-radius: 20px;
     padding: 30px 30px 30px 30px;
+    box-shadow: 10px 10px 20px rgb(110, 110, 110) ;
 }
 .s2-d2{
     background-color: rgb(255, 222, 179);
     border-radius: 10px;
     padding: 30px;
+    box-shadow: 10px 10px 20px rgb(110, 110, 110) ;
 }
 .s2-d3{
     background-color: aquamarine;
     border-radius: 20px;
     padding: 30px;
+    box-shadow: 10px 10px 20px rgb(110, 110, 110) ;
 }
 .s2-d-b1{
     padding: 15px 30px;
@@ -112,6 +115,9 @@ body{
     background-color: rgb(255, 255, 255);
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
+    padding: 30px 20px;
+    border-radius: 20px;
+    margin-top: 30px;
 }
 .s2-dd-p{
     font-weight: bolder;
@@ -124,20 +130,85 @@ body{
 .s3-d1{
     display: flex;
     gap: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 20px 30px;
 }
 .s3-images{
     border-radius: 20px;
-}
-.s3-d2{
-    background-color: rgb(255, 255, 255);
 }
 
 /* 4. Donate For Bangladesh */
 .s4{
     text-align: center;
+    margin-top: 69px;
+    margin-bottom: 10px;
+}
+.s4-d1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+.s4-d1 :hover{
+    background-color: crimson;
+}
+.s4-d2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 25px 50px;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+.s4-in{
+    width: 800px;
+    height: 50px;
+    border: none;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 /* section-5 */
 .s5{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 40px 40px;
+    border-radius: 50px;
+    margin-top: 60px;
+}
+.s5-in{
+    width: 600px;
+    height: 50px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    padding: 0px 20px;
+}
+.s5-b{
+    width: 100;
+    height: 50px;
+    border-radius: 0px 50px 50px 0px;
+    padding: 0px 20px;
+    font-size: medium;
+    border: none;
+    background-color: rgb(20, 134, 35);
+    color: aliceblue;
+}
+.s5-f{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.s5-h{
+    font-weight: bolder;
+}
+.s5-p{
+    
+    justify-content: center;
     text-align: center;
 }
