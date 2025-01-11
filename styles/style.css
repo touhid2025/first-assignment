@@ -11,6 +11,7 @@
 /* all */
 body{
     margin: 50px;
+    background-color: aliceblue;
 }
 .text-color{
     color: rgb(105, 105, 105);}
@@ -107,6 +108,14 @@ body{
     font-size: 16px;
     border: none;
 }
+.s2-dd{
+    background-color: rgb(255, 255, 255);
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+}
+.s2-dd-p{
+    font-weight: bolder;
+}
 
 /* 3. Recent News */
 .s3{
@@ -119,6 +128,16 @@ body{
 .s3-images{
     border-radius: 20px;
 }
-
+.s3-d2{
+    background-color: rgb(255, 255, 255);
+}
 
 /* 4. Donate For Bangladesh */
+.s4{
+    text-align: center;
+}
+
+/* section-5 */
+.s5{
+    text-align: center;
+}
